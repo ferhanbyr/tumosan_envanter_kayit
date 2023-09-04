@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html {
+    font-size: 10px;
+
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.0;
+    background-color: white;
+
+}
+
+.container {
+    width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.logo img {
+    width: 140px;
+    height: 100px;
+    float: left;
+    margin-top: 0.1rem;
+}
+
+.container-form {
+    padding-bottom: 12rem;
+    width: 1000px;
+    height: auto;
+    background-color: rgb(234, 233, 233);
+    margin: auto;
+
+}
+
+h2 {
+    text-align: center;
+    color: black;
+    padding-top: 4rem;
+}
+.container-form2 {
+
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    width: 80%;
+    border: 1px solid black;
+    border-collapse: collapse;
+    /* Kenarlıkları birleştir */
+
+}
+
+table th,
+table td {
+    padding: 8px;
+    text-align: center;
+}
+
+table td {
+    line-height: 25px;
+    /* Hücre yüksekliği */
+}
+@media (min-width:1601px){
+    html {
+        font-size: 1.8rem; 
+    }
+    .container {
+        width: 100%; 
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .logo img {
+        margin-right: -2rem; 
+    }
+    
+}

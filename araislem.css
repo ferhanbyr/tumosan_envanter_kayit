@@ -1,0 +1,84 @@
+
+
+html {
+    font-size: 10px;
+
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.0;
+    background-color: white;
+    color: black;
+
+}
+
+h2 {
+    text-align: center;
+    color: black;
+    padding-top: 4rem;
+}
+.container-form2 {
+background-color: rgb(231, 239, 245);
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    width: 100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+    /* Kenarlıkları birleştir */
+
+}
+
+table th,
+table td {
+    padding: 8px;
+    text-align: center;
+}
+
+table td {
+    line-height: 25px;
+    /* Hücre yüksekliği */
+}
+/*
+.container {
+    width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    margin-top: 60px;
+}
+h2 {
+    text-align: center;
+    color: black;
+    padding-top: 4rem;
+}
+.container-form2 {
+
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    width: 80%;
+    border: 1px solid black;
+    border-collapse: collapse;
+    /* Kenarlıkları birleştir */
+/*
+}
+
+table th,
+table td {
+    padding: 8px;
+    text-align: center;
+}
+
+table td {
+    line-height: 25px;
+    /* Hücre yüksekliği *//*
+}

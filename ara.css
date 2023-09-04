@@ -1,0 +1,57 @@
+body {
+    display: flex;
+    justify-content: center;
+    
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.0;
+    background-image: url('image/tractor.jpg' );
+    background-size: 100% auto;
+
+}
+
+
+ .search-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white; /* İstenilen arka plan rengini ayarlayın */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* İstenilen gölgeyi ayarlayın */
+    z-index: 1; /* Ön plana çıkma düzenlemesi */
+    
+}
+
+ .search-main {
+    width: 80%;
+    margin:0 auto;
+      
+}
+  .search-main input {
+    flex: 1;
+    padding: 17px;
+    font-size: 16px;
+    border: 1px solid black;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+  .btn-search {
+    border: 0;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    padding: 18px;
+    border-radius: 0 5px 5px 0;
+}
+#searchResults {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: none;
+}
+html {
+    font-size: 10px;
+}

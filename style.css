@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+    background-color: black;
+}
+.c-image{
+    background-image: url("image/cover.png");
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    opacity: 0.4;
+    position: absolute;
+    
+}
+.box{
+    width: 350px;
+    height: 300px;
+    background-color: black;
+    margin: auto;
+    padding-bottom: 0;
+    padding: 12rem;
+    position: relative;
+    top: 150px;
+    opacity: 0.8;
+    
+    
+}
+.logo img{
+    width: 140px;
+ height: 100px;  
+ margin: auto;
+    position: absolute;
+    top: 19%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+ 
+  
+}
+
+
+
+.login{
+    margin: auto;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+.box input[type="text"],input[type="password"]{
+    width: 250px;
+    height: 40px;
+    
+    text-align: center;
+    
+
+}
+.box input[type="submit"]{
+    width: 100px;
+    height: 35px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+          
