@@ -1,0 +1,1 @@
+I developed an inventory management system website for Tümosan using HTML, CSS, and JavaScript. This system is connected to a database to store and manage user-entered data, making stock tracking and updates more efficient and improving data accessibility.
